@@ -1,0 +1,57 @@
+package quiz;
+
+import java.util.Scanner;
+
+public class Quiz2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		
+		int salary,salary1,salary2,salary3,year,age1,age2;
+		double bonus = 0.05;
+		
+		System.out.println("Enter your salary: ");
+		salary = scan.nextInt();
+		
+		System.out.println("Enter your year of service: ");
+		year = scan.nextInt();
+		
+		if(year > 5) {
+			double netbonus = bonus * salary;
+			System.out.println("The net bonus of is: " + netbonus);
+		}
+		
+		else {
+			System.out.println("Your year of service is not more than 5 years");
+			System.out.println("No bonus given");
+		}
+		
+		System.out.println("\nEnter your monthly salary: ");
+		salary1 = scan.nextInt();
+			
+		System.out.println("Enter your monthly salary: ");
+		salary2 = scan.nextInt();
+		
+		System.out.println("\nEnter your age: ");
+		age1 = scan.nextInt();
+		
+		System.out.println("Enter your age: ");
+		age2 = scan.nextInt();
+		
+		
+		if(salary1>salary2 && age1>age2) {
+			System.out.println("The highest salary is: "+salary1);
+			System.out.println("The lowest salary is: "+salary2);
+			System.out.println("The higest age is: "+age1);
+			System.out.println("the lowest age is: " +age2);
+		}
+		
+		else {
+			System.out.println("\nThe highest salary is: "+salary2);
+			System.out.println("The lowest salary is: "+salary1);
+			System.out.println("\nThe higest age is: "+age2);
+			System.out.println("the lowest age is: " +age1);
+		}
+		
+	}
