@@ -1,0 +1,22 @@
+Enter your salary: 
+4000
+Enter your year of service: 
+4
+Your year of service is not more than 5 years
+No bonus given
+
+Enter your monthly salary: 
+5000
+Enter your monthly salary: 
+4000
+
+Enter your age: 
+48
+Enter your age: 
+50
+
+The highest salary is: 4000
+The lowest salary is: 5000
+
+The higest age is: 50
+the lowest age is: 48
